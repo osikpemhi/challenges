@@ -1,0 +1,95 @@
+body{
+  font-family: 'figtree', sans-serif;
+  background-color: #00dee2;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+div{
+  background-color: #fff;
+  margin-top: 25px;
+  width: 298px;
+  height: 397px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  box-shadow: 7px 7px;
+}
+
+.card-image{
+  width: 260px;
+  height: 140px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+/* .card-image{
+  width: 260px;
+  height: 150px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+} */
+
+.button{
+  margin-top: 9px;
+  border: none;
+  font-weight:800;
+  font-size: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 20px;
+  height: 29px;
+  background-color: #00dee2;
+  border-radius: 10px;
+}
+.button:hover{
+  transition: 1s ease-in-out;
+  background-color: #00b8c2;
+  color: #fff;
+  border: 1px solid #000;
+  cursor:pointer;
+}
+
+.date{
+  margin-top: 0%;
+  margin-top: 6px;
+  font-size: 11px;
+  margin-left: 20px;
+}
+.turkey-class{
+  margin-left: 20px;
+  font-size: 13.5px;
+  font-weight: 600;
+}
+
+.turkey-class:hover{
+  transition: 1s ease-in-out;
+  color: #00dee2;
+}
+
+.card-text{
+  line-height: 17px;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: rgb(146, 146, 146);
+}
+
+.profile-image{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.link{
+  margin-bottom: 350px;
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 1px;
+  color: #00dee2;
+  font-weight: bolder;
+}
